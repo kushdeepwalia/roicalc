@@ -5,7 +5,7 @@ const Header = (props) => {
     return <>
     <header className="bg-slate-400 h-[68px] flex justify-between">
         <img src={Logo}/>
-        <Button>{props.tbtn}</Button>
+        <Button onClick={props.btnClick}>{props.tbtn}</Button>
     </header>
     </>
 }
