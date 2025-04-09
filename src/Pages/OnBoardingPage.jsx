@@ -29,7 +29,7 @@ const OnBoardingPage = () => {
                     <p>To get started, let's create your first project</p>
                     <input id='project-name' className='border-2 border-black' type='text' placeholder='Enter the name of your prohect'/>
                 </div>
-                <Button className='border-2 border-black' onClick={nextBtnClick}>Next</Button>
+                <Button onClick={nextBtnClick}>Next</Button>
             </div>
         </div>
     </Body>

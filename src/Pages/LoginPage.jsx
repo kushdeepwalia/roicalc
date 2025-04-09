@@ -13,6 +13,7 @@ const LoginPage = () => {
         navigate('/on-boarding')
     }
 
+    // tbtn: used for defining text of button.
     return <>
     <Header tbtn='Go Back'/>
     <Body>
@@ -22,7 +23,7 @@ const LoginPage = () => {
                 <h2>Log In to Get Started</h2>
                 <p>Get access to your UX toolkit — A strategic suite, made for professionals who lead with insight.</p>
             </div>
-            <Button className='border-2 border-black' onClick={loginBtnClick}>Continue with Google</Button>
+            <Button onClick={loginBtnClick}>Continue with Google</Button>
         </div>
     </Body>
     </>
